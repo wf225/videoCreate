@@ -116,3 +116,6 @@ venv.bak/
 .idea/workspace.xml
 Pipfile.lock
 video/
+
+input/
+output/

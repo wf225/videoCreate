@@ -42,3 +42,10 @@
 - ##### 1.pipenv install
 - ##### 2.pipenv shell
 - ##### 3.python tencent_video.py /Users/用户/Library/Containers/com.tencent.tenvideo/Data/Library/Application Support/Download/video/g00208rhr0m.320092.hls out.mp4
+
+
+# [too many open files(打开的文件过多)解决方法](https://blog.csdn.net/Roy_70/article/details/78423880)
+```
+1、增大允许打开的文件数——命令方式
+ulimit -n 2048
+```
